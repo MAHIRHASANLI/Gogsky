@@ -1,0 +1,116 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.navbar_links {
+  width: 476px;
+  height: 27px;
+  display: flex;
+  gap: 65px;
+}
+
+.logo {
+  width: 75px;
+  height: 27px;
+  font-family: "Poppins" sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.navbar_link {
+  width: 336px;
+  height: 26px;
+  display: flex;
+  gap: 44px;
+}
+
+.navbar_link a {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.navbar_searchAndButtons {
+  width: 355px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+
+.search {
+  width: 111px;
+  height: 24px;
+  top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.flag {
+  width: Hug (63px);
+  height: Hug (24px);
+  padding: 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.buttons button:first-child {
+  width: Hug (102px);
+  height: Fixed (48px);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  color: rgba(33, 65, 183, 1);
+  border: none;
+  background: transparent;
+  padding: 12px 24px;
+  cursor: pointer;
+  /* transition: all 0.7s linear; */
+}
+
+/* .buttons button:first-child:hover {
+  background-color: rgba(33, 65, 183, 0.2);
+  border-radius: 8px;
+} */
+
+.buttons button:last-child {
+  width: Hug (102px);
+  height: Fixed (48px);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: "Inter";
+  color: white;
+  background-color: rgba(33, 65, 183, 1);
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.20000000298023224px;
+  cursor: pointer;
+}
