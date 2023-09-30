@@ -1,7 +1,7 @@
 import css from "./index.module.css";
 import { LuSearch } from "react-icons/lu";
-import { BsFillFlagFill } from "react-icons/bs";
-import { IoIosArrowDown } from "react-icons/io";
+import { LiaFlagUsaSolid } from "react-icons/lia";
+import { BsChevronDown } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -24,8 +24,8 @@ const Navbar = () => {
             </div>
 
             <div className={css.flag}>
-              <BsFillFlagFill />
-              <IoIosArrowDown />
+              <LiaFlagUsaSolid />
+              <BsChevronDown />
             </div>
           </div>
 

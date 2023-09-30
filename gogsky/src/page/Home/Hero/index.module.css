@@ -1,3 +1,112 @@
 .hero {
   height: 665px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero_content {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  width: 451px;
+  height: 294px;
+  top: 133px;
+  left: 108px;
+}
+
+.hero_content span {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.frameForm {
+  position: absolute;
+  padding: 60px 0 100px;
+  width: 85%;
+  bottom: 40px;
+  left: 108px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.frameForm label {
+  margin-bottom: 15px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.arrows {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.textInput input {
+  width: Fill (212px);
+  height: 18px;
+  border-radius: 8px;
+  border: 1px solid #d5d4dc;
+  padding: 12px;
+  gap: 10px;
+  display: block;
+  margin-top: 5px;
+  outline: none;
+}
+
+.textInput input::placeholder {
+  color: #333;
+}
+
+.checkOutSelect select {
+  width: 400px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #d5d4dc;
+  display: block;
+  margin-top: 5px;
+  color: #333;
+  outline: none;
+}
+
+.chooseDateSelect select {
+  width: 229px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #d5d4dc;
+  display: block;
+  margin-top: 5px;
+  color: #333;
+  outline: none;
+}
+
+.btnSearch {
+  position: absolute;
+  right: 25px;
+  bottom: 35px;
+  color: #2141b7;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-weight: 500;
+  background: transparent;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Poppins";
+  cursor: pointer;
 }
