@@ -6,9 +6,14 @@
   background-size: cover;
 }
 
+.hero_item {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .hero_content {
   font-size: 40px;
-  font-family: "Playfair Display", serif;
+  font-family: "Baskervville", serif;
   font-weight: 400;
   line-height: 70px;
   text-align: left;
@@ -17,11 +22,11 @@
   width: 451px;
   height: 294px;
   top: 133px;
-  left: 108px;
+  left: 100px;
 }
 
 .hero_content span {
-  font-family: "Playfair Display", serif;
+  font-family: "Baskervville", serif;
   font-weight: 600;
 }
 
@@ -30,7 +35,7 @@
   padding: 60px 0 100px;
   width: 85%;
   bottom: 40px;
-  left: 108px;
+  left: 100px;
   background-color: white;
   display: flex;
   justify-content: space-evenly;
@@ -41,7 +46,7 @@
 
 .frameForm label {
   margin-bottom: 15px;
-  font-family: "Montserrat";
+  font-family: "Baskervville", serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
@@ -50,12 +55,12 @@
 }
 
 .arrows {
-  margin-top: 20px;
+  margin-top: 25px;
   font-size: 18px;
 }
 
 .textInput input {
-  width: Fill (212px);
+  width: 180px;
   height: 18px;
   border-radius: 8px;
   border: 1px solid #d5d4dc;
@@ -64,32 +69,43 @@
   display: block;
   margin-top: 5px;
   outline: none;
+  font-size: 12px;
+  font-family: "Montserrat";
 }
 
 .textInput input::placeholder {
   color: #333;
 }
 
-.checkOutSelect select {
-  width: 400px;
-  height: 44px;
+.checkOutSelect input {
+  width: 300px;
+  height: 18px;
   border-radius: 8px;
+  padding: 12px;
   border: 1px solid #d5d4dc;
   display: block;
   margin-top: 5px;
-  color: #333;
+  color: black;
   outline: none;
+  font-size: 12px;
+  font-family: "Montserrat";
 }
 
-.chooseDateSelect select {
-  width: 229px;
-  height: 44px;
+.chooseDateSelect .chooseDateSelect_item {
+  position: relative;
+  width: 230px;
+  height: 18px;
+  padding: 12px;
   border-radius: 8px;
   border: 1px solid #d5d4dc;
-  display: block;
   margin-top: 5px;
-  color: #333;
+  color: black;
+  font-size: 12px;
   outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat";
 }
 
 .btnSearch {
@@ -109,4 +125,31 @@
   gap: 10px;
   font-family: "Poppins";
   cursor: pointer;
+}
+
+.guestCount {
+  width: 230px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  border: 1px solid #d5d4dc;
+  padding: 12px;
+  background-color: white;
+  z-index: 9;
+  text-align: center;
+}
+
+.clickBtn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.guestCount button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 5px;
 }

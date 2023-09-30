@@ -4,7 +4,24 @@ html,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: white;
 }
 a {
   text-decoration: none;
+}
+
+.react-datepicker {
+  /* background: red; */
+  width: 320px;
+}
+
+.react-datepicker__month-container {
+  width: 320px;
+}
+.react-datepicker__month-container .react-datepicker__header {
+  background-color: white;
+  color: #2141b7;
+}
+.react-datepicker__month-container .react-datepicker__current-month {
+  color: #2141b7;
 }

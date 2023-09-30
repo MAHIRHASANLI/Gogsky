@@ -1,12 +1,14 @@
-import React from 'react'
-import HeroSection from './Hero'
+import React from "react";
+import HeroSection from "./Hero";
+import HowItWorks from "./Worksh";
 
 const Home = () => {
   return (
     <React.Fragment>
-        <HeroSection/>
+      <HeroSection />
+      <HowItWorks />
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
