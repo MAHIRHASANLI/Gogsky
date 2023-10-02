@@ -1,0 +1,104 @@
+.exploreWorld {
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.sectionName h2 {
+  margin: 20px 80px 20px;
+  font-family: "Baskervville";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+}
+
+.sectionName h2::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -80px;
+  width: 69px;
+  height: 2px;
+  background: #f3780c;
+}
+
+.container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 24px; */
+}
+
+.exploreWorld_item {
+  width: 240px;
+  height: 230px;
+}
+
+.exploreWorld_item img {
+  height: 140px;
+  width: 100%;
+}
+
+.exploreWorld_count {
+  width: 234px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.names {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 207px;
+  height: 24px;
+  gap: 36px;
+}
+
+.names p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 28, 59, 1);
+}
+
+.date {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 272px;
+  height: 18px;
+  gap: 12px;
+}
+
+.date p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 28, 59, 1);
+}
+
+.price p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 28, 59, 1);
+}

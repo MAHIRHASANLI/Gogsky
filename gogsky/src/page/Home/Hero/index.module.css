@@ -1,5 +1,5 @@
 .hero {
-  height: 665px;
+  min-height: 100vh;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,6 @@
   width: 451px;
   height: 294px;
   top: 133px;
-  left: 100px;
 }
 
 .hero_content span {
@@ -35,7 +34,6 @@
   padding: 60px 0 100px;
   width: 85%;
   bottom: 40px;
-  left: 100px;
   background-color: white;
   display: flex;
   justify-content: space-evenly;
@@ -44,68 +42,71 @@
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
+.frameForm input,
+.chooseDateSelect_item {
+  height: 16px;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid rgba(213, 212, 220, 1);
+  display: block;
+  margin-top: 8px;
+  color: black;
+  outline: none;
+  font-size: 12px;
+  font-family: "Montserrat";
+  animation-timing-function: ease-out;
+  animation-duration: 50ms;
+}
+
+.frameForm input::placeholder,
+.chooseDateSelect_item span {
+  color: rgba(213, 212, 220, 1);
+  font-family: "Montserrat";
+}
+
+.frameForm input:active,
+.chooseDateSelect_item:active {
+  border: 1px solid rgba(139, 180, 255, 1);
+}
+
+.frameForm input:focus,
+.chooseDateSelect_item:focus {
+  border: 1px solid rgba(33, 65, 183, 1);
+}
+
+.frameForm input:hover,
+.chooseDateSelect_item:hover {
+  background: rgba(245, 248, 255, 1);
+  background: linear-gradient(0deg, #f5f8ff, #f5f8ff);
+}
+
 .frameForm label {
   margin-bottom: 15px;
-  font-family: "Baskervville", serif;
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
+  color: rgba(16, 0, 46, 1);
 }
 
 .arrows {
-  margin-top: 25px;
+  margin-top: 30px;
   font-size: 18px;
 }
 
 .textInput input {
   width: 180px;
-  height: 18px;
-  border-radius: 8px;
-  border: 1px solid #d5d4dc;
-  padding: 12px;
-  gap: 10px;
-  display: block;
-  margin-top: 5px;
-  outline: none;
-  font-size: 12px;
-  font-family: "Montserrat";
-}
-
-.textInput input::placeholder {
-  color: #333;
 }
 
 .checkOutSelect input {
   width: 300px;
-  height: 18px;
-  border-radius: 8px;
-  padding: 12px;
-  border: 1px solid #d5d4dc;
-  display: block;
-  margin-top: 5px;
-  color: black;
-  outline: none;
-  font-size: 12px;
-  font-family: "Montserrat";
 }
 
-.chooseDateSelect .chooseDateSelect_item {
+.chooseDateSelect_item {
   position: relative;
   width: 230px;
-  height: 18px;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #d5d4dc;
-  margin-top: 5px;
-  color: black;
-  font-size: 12px;
-  outline: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Montserrat";
 }
 
 .btnSearch {
@@ -130,6 +131,7 @@
 .guestCount {
   width: 230px;
   position: absolute;
+  top: -22px;
   display: flex;
   justify-content: space-around;
   border-radius: 8px;
@@ -152,4 +154,25 @@
   background: transparent;
   cursor: pointer;
   margin: 5px;
+  font-size: 18px;
+  padding: 0;
+}
+
+.datePicker {
+  position: relative;
+}
+
+.datePicker svg {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  font-size: 14px;
+}
+
+.chooseDateSelect_item svg {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 14px;
 }

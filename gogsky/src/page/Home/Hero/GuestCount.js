@@ -1,5 +1,6 @@
 import React from 'react'
 import css from "./index.module.css";
+////AxtarisFormundan oturulen PROPSLAR( adulitCount, setadulitCount, childCount, setChildCount)
 
 const GuestCount = ({ adulitCount, setadulitCount, childCount, setChildCount }) => {
     return (

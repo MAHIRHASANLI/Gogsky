@@ -7,7 +7,7 @@ const HowItWorks = () => {
     <div className={css.howItWorks}>
       <h2 className={css.sectionName}>HOW IT WORKS</h2>
       <div className={css.howItWorks_item}>
-        <Grid container spacing={4}>
+        <Grid container spacing={7}>
           <Grid item xs={12} sm={12} md={6} lg={6}>
             <h6>
               Here are the main three steps how you can book the trip of your

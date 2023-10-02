@@ -1,0 +1,138 @@
+.reviews {
+  height: 90vh;
+  padding: 30px 0 100px;
+  background-color: rgba(28, 28, 59, 1);
+}
+
+.reviews_item {
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+}
+
+.sectionName h2 {
+  margin: 20px 80px 20px;
+  font-family: "Baskervville";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  color: white;
+}
+
+.sectionName h2::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -80px;
+  width: 69px;
+  height: 2px;
+  background: #f3780c;
+}
+
+.reviews_item h6 {
+  font-family: "Baskervville", serif;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  width: 611px;
+  height: 94px;
+  margin: 30px 0;
+}
+
+.description p {
+  width: 520px;
+  height: 41px;
+  margin: 0 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.swiperSlide {
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  z-index: 99;
+}
+
+.swiperSlide h5 {
+  font-family: "Baskerville Old Face";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.left_item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.left_item,
+.left_item div,
+.left_item h5 {
+  margin: 0;
+  text-align: center;
+  width: 130px;
+}
+
+.right_item,
+.right_item div,
+.right_item h5 {
+  margin: 0;
+  text-align: start;
+}
+
+.left_item p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+.left_item span {
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.right_item svg {
+  font-size: 16px;
+}
+
+.right_item p {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
