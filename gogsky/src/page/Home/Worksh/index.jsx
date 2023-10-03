@@ -9,10 +9,10 @@ const HowItWorks = () => {
       <div className={css.howItWorks_item}>
         <Grid container spacing={7}>
           <Grid item xs={12} sm={12} md={6} lg={6}>
-            <h6>
+            <h5>
               Here are the main three steps how you can book the trip of your
               dreams
-            </h6>
+            </h5>
             <p style={{ margin: "20px 50px" }}>
               When planning your trips with us, you will spend a minimum of time
               and get a maximum of emotions and memories.

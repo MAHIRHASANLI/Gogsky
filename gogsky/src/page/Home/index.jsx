@@ -3,6 +3,7 @@ import HeroSection from "./Hero";
 import HowItWorks from "./Worksh";
 import ExploreWorld from "./ExploreWorld";
 import Reviews from "./Reviews";
+import FagSection from "./Fag";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <HowItWorks />
       <ExploreWorld/>
       <Reviews/>
+      <FagSection/>
     </React.Fragment>
   );
 };

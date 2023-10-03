@@ -1,0 +1,113 @@
+.fagSection {
+  width: 85%;
+  margin: 0 auto;
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rightItemAndTop {
+  margin: 0 50px;
+}
+
+.sectionName h2 {
+  margin: 0px 80px 20px;
+  font-family: "Baskervville";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+}
+
+.sectionName h2::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -80px;
+  width: 69px;
+  height: 2px;
+  background: #f3780c;
+}
+
+.leftItem_image {
+  height: 450px;
+  width: 35%;
+}
+
+.rightItem {
+  width: 55%;
+}
+
+.description h5 {
+  width: 450px;
+  height: 90px;
+  font-family: "Baskervville";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.description p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 80%;
+  height: 40px;
+  color: rgba(112, 112, 112, 1);
+  margin: 10px 110px 30px;
+}
+
+.questions {
+  width: 100%;
+}
+
+.question {
+  border: 1px solid rgba(235, 235, 235, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.question p {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.isOpenAnswer {
+  padding: 20px 30px;
+  border: 1px solid rgba(235, 235, 235, 1);
+  border-top: none;
+  background-color: white;
+}
+
+.isOpenAnswer p {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.question svg {
+  font-size: 16px;
+  font-weight: 100;
+  cursor: pointer;
+}

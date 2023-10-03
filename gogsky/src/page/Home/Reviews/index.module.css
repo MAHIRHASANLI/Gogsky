@@ -1,6 +1,6 @@
 .reviews {
-  height: 90vh;
-  padding: 30px 0 100px;
+  /* height: 90vh; */
+  padding: 30px 0;
   background-color: rgba(28, 28, 59, 1);
 }
 
@@ -32,16 +32,19 @@
   background: #f3780c;
 }
 
-.reviews_item h6 {
-  font-family: "Baskervville", serif;
-  font-size: 36px;
+.reviews_itemH5 h5 {
+  width: 450px;
+  height: 90px;
+  font-family: "Baskervville";
+  font-size: 24px;
   font-weight: 400;
+  line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
-  width: 611px;
+  width: 500px;
   height: 94px;
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .description p {
@@ -49,11 +52,13 @@
   height: 41px;
   margin: 0 100px;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
+  color: white;
+  margin: 10px 110px 30px;
 }
 
 .swiperSlide {
@@ -106,7 +111,7 @@
 
 .left_item p {
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;

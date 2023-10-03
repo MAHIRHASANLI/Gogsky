@@ -9,8 +9,8 @@ const Reviews = () => {
         <div className={css.sectionName}>
           <h2>REVIEWS</h2>
         </div>
-        <div>
-          <h6>What our customers say about their experience travel with us</h6>
+        <div className={css.reviews_itemH5}>
+          <h5 >What our customers say about their experience travel with us</h5>
         </div>
         <div className={css.description}>
           <p>

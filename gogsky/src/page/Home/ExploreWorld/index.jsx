@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./index.module.css";
-import { GoArrowSwitch } from "react-icons/go";
+import { GoArrowSwitch ,GoArrowRight} from "react-icons/go";
 
 const ExploreWorld = () => {
   const array = [
@@ -14,6 +14,7 @@ const ExploreWorld = () => {
     <div className={css.exploreWorld}>
       <div className={css.sectionName}>
         <h2>EXPLORE THE WORLD</h2>
+        <div className={css.viewMore}><span>View More</span><GoArrowRight/></div>
       </div>
       <div className={css.container}>
         {array &&

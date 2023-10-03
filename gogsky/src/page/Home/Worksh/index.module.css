@@ -25,14 +25,17 @@
   background: #f3780c;
 }
 
-.howItWorks_item h6 {
+.howItWorks_item h5 {
   font-family: "Baskervville", serif;
-  font-size: 32px;
+  margin: 0;
+
+  font-size: 24px;
   font-weight: 400;
-  line-height: 47px;
+  line-height: 40px;
   letter-spacing: 0em;
   text-align: left;
-  margin: 0;
+  width: 450px;
+  height: 94px;
 }
 
 .howItWorks_item p {
@@ -49,7 +52,6 @@
   width: 90%;
   height: 100%;
   object-fit: cover;
-   
 }
 
 .turLists {
