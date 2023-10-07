@@ -13,7 +13,7 @@ const SwiperSlider = () => {
     return (
         <Swiper
             slidesPerView={"auto"}
-            spaceBetween={60}
+            spaceBetween={50}
             className="mySwiper"
         >
             {

@@ -8,7 +8,7 @@ const HeroSection = () => {
       className={css.hero}
       style={{
         backgroundImage:
-          "url(https://media.istockphoto.com/id/1395878839/photo/despair.webp?s=1024x1024&w=is&k=20&c=UwmEOZCAVRvcQr7MvNvTuKY-IAEtcKvaxTl-VFVnTyw=)",
+          "url(https://turlar.az/uploads/news/156950355413396844645d8cb9426d68d.jpg)",
       }}
     >
       <div className={css.hero_item}>

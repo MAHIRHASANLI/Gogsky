@@ -8,7 +8,7 @@
   text-align: center;
   font-size: 18px;
   cursor: grab;
-  width: 650px;
+  max-width: 650px;
   height: 250px;
   background-position: center;
   background-repeat: no-repeat;

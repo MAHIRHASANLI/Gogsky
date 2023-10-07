@@ -19,6 +19,8 @@ const SearchForm = () => {
         setStartDate(newStartDate);
         setEndDate(newEndDate);
     };
+    const values = (<>child: {childCount}, adulit: {adulitCount}</>)
+    console.log(values.props.children);
     return (
         <div className={css.frameForm}>
             <div className={css.textInput}>
@@ -39,8 +41,10 @@ const SearchForm = () => {
                 <label>Check in - Check out</label>
                 <div
                     className={css.datePicker}
-                    onClick={() =>{ setIsOpenDate(!isOpenDate)
-                        setIsOpenGuest(false)}}
+                    onClick={() => {
+                        setIsOpenDate(!isOpenDate)
+                        setIsOpenGuest(false)
+                    }}
                 >
                     <DatePicker
                         id="datePicker"

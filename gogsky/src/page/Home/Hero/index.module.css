@@ -97,16 +97,16 @@
 }
 
 .textInput input {
-  width: 180px;
+  width: 160px;
 }
 
 .checkOutSelect input {
-  width: 300px;
+  width: 280px;
 }
 
 .chooseDateSelect_item {
   position: relative;
-  width: 230px;
+  width: 200px;
 }
 
 .btnSearch {
@@ -129,9 +129,9 @@
 }
 
 .guestCount {
-  width: 230px;
+  width: 200px;
   position: absolute;
-  top: -22px;
+  bottom: 5px;
   display: flex;
   justify-content: space-around;
   border-radius: 8px;
@@ -166,6 +166,7 @@
   position: absolute;
   top: 50%;
   right: 10px;
+  transform: translateY(-30%);
   font-size: 14px;
 }
 
