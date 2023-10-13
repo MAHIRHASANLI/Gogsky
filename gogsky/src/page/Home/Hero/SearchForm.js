@@ -19,8 +19,7 @@ const SearchForm = () => {
         setStartDate(newStartDate);
         setEndDate(newEndDate);
     };
-    const values = (<>child: {childCount}, adulit: {adulitCount}</>)
-    console.log(values.props.children);
+
     return (
         <div className={css.frameForm}>
             <div className={css.textInput}>
@@ -67,6 +66,7 @@ const SearchForm = () => {
                 <div
                     onClick={() => setIsOpenGuest(!isOpenGuest)}
                     className={css.chooseDateSelect_item}
+                    style={{ border: isOpenGuest ? "1px solid rgba(33, 65, 183, 1)" : "1px solid rgba(213, 212, 220, 1)" }}
                 >
                     {adulitCount < 1 && childCount < 1 ? (
                         <span>Choose guests</span>

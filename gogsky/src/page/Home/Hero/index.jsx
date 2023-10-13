@@ -8,7 +8,7 @@ const HeroSection = () => {
       className={css.hero}
       style={{
         backgroundImage:
-          "url(https://turlar.az/uploads/news/156950355413396844645d8cb9426d68d.jpg)",
+          "url(https://cdn.musavat.com/news/thumbnails/1507c711121b605195eba46a211eb90c.jpg)",
       }}
     >
       <div className={css.hero_item}>
@@ -18,7 +18,6 @@ const HeroSection = () => {
           </p>
         </div>
 
-        {/*Axtarish Formu*/}
         <SearchForm />
       </div>
     </div>

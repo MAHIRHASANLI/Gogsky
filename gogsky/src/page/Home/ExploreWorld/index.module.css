@@ -68,11 +68,11 @@
 
 .exploreWorld_count {
   width: 234px;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 5px;
+  gap: 3px;
 }
 
 .names {

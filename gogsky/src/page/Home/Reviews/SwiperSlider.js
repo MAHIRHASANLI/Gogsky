@@ -1,12 +1,11 @@
 import React from 'react'
-import css from "./index.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { AiFillStar } from "react-icons/ai"
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "./style.css";
+import "./slider.css"
 
 const SwiperSlider = () => {
     const array = ["https://cdn.musavat.com/news/thumbnails/1507c711121b605195eba46a211eb90c.jpg", "https://banco.az/sites/default/files/synopsis.jpg", "https://azvision.az/photos/2022/08/ipek-yolu-turizmi-1659988424.jpg"]
@@ -23,12 +22,14 @@ const SwiperSlider = () => {
                         style={{
                             backgroundImage:
                                 `url(${item})`,
-                        }}>
+                        }}
+                        className='swiperSlider'
+                        >
                         <div
-                            className={css.swiperSlide}
+                            className="swiperSliderItem"
 
                         >
-                            <div className={css.left_item}>
+                            <div className="left_item">
                                 <div>
                                     <img src={item} alt="" />
                                     <h5>Name</h5>
@@ -40,7 +41,7 @@ const SwiperSlider = () => {
                             </div>
 
                             {/* //// */}
-                            <div className={css.right_item}>
+                            <div className="right_item">
                                 <div>
                                     <h5>Royal Lands Tour</h5>
                                     <span><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></span>

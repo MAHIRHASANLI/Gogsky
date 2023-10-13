@@ -4,7 +4,7 @@ import css from "./index.module.css";
 
 const GuestCount = ({ adulitCount, setadulitCount, childCount, setChildCount }) => {
     return (
-        <div className={css.guestCount}>
+        <div className={css.guestCount} >
             <div>
                 <p>Adult</p>
                 <div className={css.clickBtn}>

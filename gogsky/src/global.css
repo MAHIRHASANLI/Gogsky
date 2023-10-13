@@ -18,6 +18,8 @@ a {
   text-decoration: none;
 }
 
+
+
 .react-datepicker {
   /* background: red; */
   width: 320px;
@@ -35,4 +37,8 @@ a {
 }
 .react-datepicker-ignore-onclickoutside {
   color: red;
+}
+.react-datepicker-popper {
+  position: absolute;
+  top: 0;
 }
