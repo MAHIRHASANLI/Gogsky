@@ -19,8 +19,8 @@ const HowItWorks = () => {
             </p>
             <div>
               <img
-                src="https://turismolocal.cl/wp-content/uploads/2019/04/turistik-1.jpg"
-                alt=""
+                src="https://cdn.musavat.com/news/thumbnails/1507c711121b605195eba46a211eb90c.jpg"
+                alt="img"
               />
             </div>
           </Grid>
