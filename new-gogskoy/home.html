@@ -9,10 +9,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
+    <div id="ofline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, ut!</div>
+
     <nav class="navbar">
         <div class="navbar_item">
             <div class="navbar_links">
@@ -52,6 +54,37 @@
                 <p>
                     Your Adventure Travel Expert in <span>GOGsky</span>
                 </p>
+            </div>
+
+            <div class="frameForm">
+                <div class="textInput">
+                    <label>Location</label>
+                    <input type="text" placeholder="Placeholder text" />
+                </div>
+
+                <div class="arrows">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+
+                <div class="textInput">
+                    <label>Destination</label>
+                    <input type="text" placeholder="Placeholder text" />
+                </div>
+
+                <div class="checkOutSelect">
+                    <label>Check in - Check out</label>
+                    <div class="datePicker">
+                        <input type="date">
+                    </div>
+                </div>
+
+                <div class="chooseDateSelect">
+                    <label>Guest</label>
+                    <input type="text">
+                </div>
+                <button class="btnSearch">
+                    <LuSearch /> Search
+                </button>
             </div>
         </div>
     </div>
@@ -204,9 +237,59 @@
         </div>
     </div>
 
+
+    <!-- fagSection -->
+    <div class="fagSection">
+        <!-- {/* Left Item -IMAGE */} -->
+        <div class="leftItem_image">
+            <img src="https://cdn.musavat.com/news/thumbnails/1507c711121b605195eba46a211eb90c.jpg" alt="" />
+        </div>
+        <!-- {/* Right item -> */} -->
+        <div class="rightItem">
+            <div class="rightItemAndTop">
+                <div class="sectionName">
+                    <h2>FAG</h2>
+                </div>
+                <div class="description">
+                    <div>
+                        <h5>
+                            The most popular questions that are of most interest to our
+                            customers
+                        </h5>
+                    </div>
+                    <div>
+                        <p>
+                            We have collected the most popular questionsto answer to which
+                            can help you with booking a tour.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- {/* ////// */} -->
+            <div class="questions">
+                <Accordion class="accardion">
+                    <AccordionSummary>
+                        <Typography variant="h6">
+                            What is included in the price of the tours your offer?
+                        </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography variant="span">
+                            The price of all our tour always included, travel around the
+                            country, a tourist guide, breakfast and dinner at the hotel,
+                            visits to all historical monuments.
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="./javaScript/script.js"></script>
 </body>
 
 </html>
